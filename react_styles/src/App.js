@@ -16,14 +16,14 @@ function App() {
       price = '300'
       speed = '10'
       theme={themeBlue}
-      selected={false}
+     
 
       />
       <Card
        price = '450'
        speed = '50'
        theme={themeGreen}
-       selected={false}
+       
      
       />
       <Card
@@ -36,7 +36,7 @@ function App() {
        price = '1000'
        speed = '200'
        theme={themeBlack}
-       selected={false}
+      
       />
     </div>
   );

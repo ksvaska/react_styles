@@ -43,5 +43,8 @@
 }
 
 .selected{
-    border: 10px solid white;
+    display: flex;
+    flex-direction: column;
+    border: solid 8px white;
+    width: 400px;
 }

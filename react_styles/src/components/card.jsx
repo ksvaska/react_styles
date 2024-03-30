@@ -5,7 +5,7 @@ function Card({price,speed,theme,selected}){
     
 
     return(
-        <div className={{selected}? styles.selected : styles.card   }>
+        <div className={selected? styles.selected : styles.card   }>
             <p className={`${styles.title} ${theme.title}`}>Безлимитный {price}</p>
             <div className={`${styles.info} ${theme.price}`}>
                 <p className={styles.rub}>руб</p>
