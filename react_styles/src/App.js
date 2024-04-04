@@ -1,6 +1,6 @@
 
 import './App.css';
-import Card from './components/card.jsx';
+import Card from './components/Card/card.jsx';
 import themeBlue from "./components/themeBlue.module.css";
 import themeRed from "./components/themeRed.module.css";
 import themeGreen from './components/themeGreen.module.css';

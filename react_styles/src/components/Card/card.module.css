@@ -45,6 +45,6 @@
 .selected{
     display: flex;
     flex-direction: column;
-    border: solid 8px white;
+    border: solid 5px gray;
     width: 400px;
 }
